@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1081570541027",
+    "project_id": "communication-skill-dev-app",
+    "storage_bucket": "communication-skill-dev-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081570541027:android:e00fd240886c438d8a74d6",
+        "android_client_info": {
+          "package_name": "com.example.cardview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081570541027-p8kfbo4qehvom9q8oq8v2n31c157dau8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz674VCrPFyYWoaAXjh-iTTrzFSLhgPrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081570541027-p8kfbo4qehvom9q8oq8v2n31c157dau8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

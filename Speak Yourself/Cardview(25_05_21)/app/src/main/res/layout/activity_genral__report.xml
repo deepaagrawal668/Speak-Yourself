@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prac_back2"
+    tools:context=".Genral_Report">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="  General Report"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/gill_sans_mt_book_itallic" />
+
+    <ListView
+        android:id="@+id/noteListView"
+        android:layout_width="match_parent"
+        android:layout_height="612dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="119dp"
+        android:layout_marginBottom="0dp"
+        android:divider="@color/black"
+        android:dividerHeight="3dp" />
+
+</RelativeLayout>

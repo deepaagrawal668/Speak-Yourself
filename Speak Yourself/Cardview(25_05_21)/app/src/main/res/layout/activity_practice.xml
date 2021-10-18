@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".practice"
+    android:background="@drawable/prac_back2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="  Practice"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/gill_sans_mt_book_itallic" />
+
+
+    <!--    <Button-->
+<!--        android:id="@+id/selectFile"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="156dp"-->
+<!--        android:layout_marginLeft="148dp"-->
+<!--        android:layout_marginTop="123dp"-->
+<!--        android:layout_marginRight="161dp"-->
+<!--        android:layout_marginBottom="432dp"-->
+<!--        android:gravity="center-->
+<!--"-->
+<!--        android:text="Select File" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/notification"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="200dp"-->
+<!--        android:layout_marginLeft="178dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="No File is selected" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/upload"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="159dp"-->
+<!--        android:layout_marginLeft="159dp"-->
+<!--        android:layout_marginTop="289dp"-->
+<!--        android:layout_marginEnd="158dp"-->
+<!--        android:layout_marginRight="158dp"-->
+<!--        android:layout_marginBottom="266dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Upload" />-->
+
+   <!-- <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="  Practice"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/gill_sans_mt_book_itallic" />
+
+    <TextView
+        android:id="@+id/textTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="469dp"
+        android:fontFamily="@font/gill_sans_mt_book_itallic"
+        android:text="Tap on the mic to start recording the audio"
+        android:textAlignment="center"
+        android:textColor="#9C74F8"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <ImageButton
+        android:id="@+id/voicebtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:src="@drawable/ic_mic"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/Count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/voicebtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="177dp"
+        android:layout_marginLeft="177dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:layout_marginBottom="145dp"
+        android:text="TextView" />-->
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mic" />
+    <TextView
+        android:id="@+id/textTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="469dp"
+        android:fontFamily="@font/gill_sans_mt_book_itallic"
+        android:text="Tap on the mic to start recording the audio"
+        android:textAlignment="center"
+        android:textColor="#9C74F8"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <ImageButton
+        android:id="@+id/voicebtn"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:src="@drawable/ic_mic"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <Chronometer
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_above="@id/voicebtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/voicebtn"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="0dp"
+        android:text="Stop timer"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        app:backgroundTint="#E91E63" />
+    <Button
+        android:id="@+id/btn_report"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/stop"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:text="Generate Report"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

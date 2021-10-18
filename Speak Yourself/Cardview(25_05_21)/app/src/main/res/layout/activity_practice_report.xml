@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pracreport1"
+    tools:context=".PracticeReport">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/gill_sans_mt_book_itallic"
+            android:text="  Practice Report"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:background="#80F8F971">
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="2"
+                    android:textColor="#845EC3"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/gill_sans_mt_light"
+                    />
+
+            <TextView
+                android:id="@+id/output"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:textColor="#D75DB2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/gill_sans_mt_light"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filler Count: - "
+                android:textSize="20dp"
+                android:textColor="#FF6F92"
+                android:textStyle="bold"
+                android:fontFamily="@font/gill_sans_mt_light"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TextView"
+                android:id="@+id/fillerCount"
+                android:textSize="20dp"
+                android:textColor="#FF6F92"
+                android:textStyle="bold"
+                android:fontFamily="@font/gill_sans_mt_light"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Rate of Speech: - "
+                android:textColor="#FF9571"
+                android:textStyle="bold"
+                android:fontFamily="@font/gill_sans_mt_light"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Textview"
+                android:id="@+id/rateOfSpeech"
+                android:textSize="20dp"
+                android:textColor="#FF9571"
+                android:textStyle="bold"
+                android:fontFamily="@font/gill_sans_mt_light"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" words/min"
+                android:textSize="20dp"
+                android:textColor="#FF9571"
+                android:textStyle="bold"
+                android:fontFamily="@font/gill_sans_mt_light"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:onClick="saveNote"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

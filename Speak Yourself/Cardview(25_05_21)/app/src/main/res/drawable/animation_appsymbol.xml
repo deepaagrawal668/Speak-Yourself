@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/speakyourself0"
+        android:duration="100"
+        />
+    <item
+        android:drawable="@drawable/speakyourself1"
+        android:duration="40"
+        />
+    <item
+        android:drawable="@drawable/speakyourself2"
+        android:duration="40"
+    />
+    <item
+        android:drawable="@drawable/speakyourself3"
+        android:duration="40"
+    />
+    <item
+        android:drawable="@drawable/speakyourself4"
+        android:duration="40"
+    />
+    <item
+        android:drawable="@drawable/speakyourself5"
+        android:duration="40"
+    />
+    <item
+        android:drawable="@drawable/speakyourself6"
+        android:duration="40"
+        />
+    <item
+        android:drawable="@drawable/speakyourself"
+        android:duration="40"
+        />
+</animation-list>
