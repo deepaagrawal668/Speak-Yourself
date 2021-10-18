@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "619162380812",
+    "project_id": "speak-yourself-277a1",
+    "storage_bucket": "speak-yourself-277a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619162380812:android:d33bcf09156f6b4ea19c29",
+        "android_client_info": {
+          "package_name": "com.example.cardview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619162380812-5mt44pjk2he15hbkdh5r8j59um7rplv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALM1_e5lxJA3r5ggysKhFPC5WCc1NYrOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619162380812-5mt44pjk2he15hbkdh5r8j59um7rplv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

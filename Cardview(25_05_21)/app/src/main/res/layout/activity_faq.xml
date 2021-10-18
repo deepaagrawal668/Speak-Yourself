@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prac_back2"
+    tools:context=".faq">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="  FAQ"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/gill_sans_mt_book_itallic" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/firstquestLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is Speak Yourself?"
+        android:textSize="20dp"
+        android:textColor="#666565"
+        android:id="@+id/firstQuestion"
+        android:layout_marginTop="10dp"/>
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/firstansLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="	Speak Yourself is a communication skills development platform. It aims towards improving communication in English and building confidence within user to communicate in daily life as well as for professional settings."
+        android:layout_below="@+id/firstQuestion"
+        android:id="@+id/firstQuestionAns"
+        android:textSize="15dp"
+        android:textColor="#666565"
+        android:layout_marginTop="15dp"/>
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/secondquestLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why Speak Yourself?"
+        android:textSize="20dp"
+        android:textColor="#666565"
+        android:layout_below="@id/firstQuestionAns"
+        android:id="@+id/secondQuestion"
+        android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/SecondansLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="	In today’s world communication skills are essential to allow others and yourself to understand information more accurately and quickly. It’s a way to express yourself and your opinions in an effective and unique way.\nAs for the name of the app, it has been inspired from the speech delivered by the popular boyband ‘BTS’ leader ‘Kim Namjoon’ during UN General Assembly held in New York in 2018.\nFollowing is an extract from the same speech:\nI would like to ask all of you. What is your name? What excites you and makes your heart beat?\nTell me your story. I want to hear your voice, and I want to hear your conviction. No matter who you are, where you’re from, your skin colour, gender identity: speak yourself.\nFind your name, find your voice by speaking yourself.\nI’m Kim Nam Jun, RM of BTS.\nI’m a hip-hop idol and an artist from a small town in Korea.\nLike most people, I made many mistakes in my life.\nI have many faults and I have many fears, but I am going to embrace myself as hard as I can, and I’m starting to love myself, little by little.\nWhat is your name? Speak Yourself!"
+        android:layout_below="@+id/secondQuestion"
+        android:id="@+id/secondQuestionAns"
+        android:textSize="15dp"
+            android:textColor="#666565"
+        android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/thirdquestLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What does the app symbol mean?"
+        android:textSize="20dp"
+        android:textColor="#666565"
+        android:layout_below="@id/secondQuestionAns"
+        android:id="@+id/thirdQuestion"
+        android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ThirdansLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thirdQuestion"
+        android:id="@+id/thirdQuestionAns"
+        android:text="	The app symbol was designed while taking ‘throat chakra’ as reference.\nThe throat chakra is found at the center of the neck on the throat level.\nThis chakra is associated with certain behavioral and psychological characteristics. It represents expression and your ability to speak out and express your truth. It signifies both verbal and non-verbal communication, as well as internal and external communication. This chakra connects with the etheric realm, as well as the subtle realms of your intuitive abilities and your spirit. It gives you the inclination to create and project your blueprints and ideas into reality. This chakra helps you realize your purpose or your vocation, and it makes sure that you have a good sense of timing. This chakra is all about expressing yourself. It fills you with the truth, with your purpose in life, and with an abundant source of creativity."
+        android:textSize="15dp"
+        android:textColor="#666565"
+        android:layout_marginTop="15dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/fourthquestLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is the importance of communication in an organization?"
+        android:textSize="20dp"
+        android:textColor="#666565"
+        android:layout_below="@id/thirdQuestionAns"
+        android:id="@+id/fourthQuestion"
+        android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/FourthansLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fourthQuestion"
+        android:id="@+id/fourthQuestionAns"
+        android:text="	Communication promotes motivation by informing and clarifying the employees about the task to be done, the manner they are performing the task, and how to improve their performance if it is not up to the mark.\n	Communication is a source of information to the organizational members for decision-making process as it helps identifying and assessing alternative course of actions.\n	Communication also plays a crucial role in altering individual’s attitudes, i.e., a well-informed individual will have better attitude than a less-informed individual. Organizational magazines, journals, meetings and various other forms of oral and written communication help in molding employee’s attitudes.\n	Communication also helps in socializing. In today’s life the only presence of another individual foster’s communication. \n	As discussed earlier, communication also assists in controlling process. It helps controlling organizational member’s behavior in various ways. There are various levels of hierarchy and certain principles and guidelines that employees must follow in an organization. They must comply with organizational policies, perform their job role efficiently and communicate any work problem and grievance to their superiors. Thus, communication helps in controlling function of management."
+        android:textSize="15dp"
+        android:textColor="#666565"
+        android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/fifthquestLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How can I use Speak Yourself?"
+        android:textSize="20dp"
+        android:textColor="#666565"
+        android:layout_below="@id/fourthQuestionAns"
+        android:id="@+id/fifthQuestion"
+        android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/FifthansLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fifthQuestion"
+        android:id="@+id/fifthQuestionAns"
+        android:text="	To use ‘Speak Yourself’ you need to download/install the application on your Android device. \nIf you are a new user you will have to signup/register yourself on the app or you could directly login if you’re already registered. \nAfter logging in, you’ll be taken to the ‘My Dashboard’ activity screen where you can see ‘Practice’, ‘Progress Report’, ‘Material’ and ‘FAQ’ tabs. \nYou can use the practice tab to audio record your speech/extempore and the speech analysis report will be provided accordingly. \nProgress tab can be used to check your progress till date.\nMaterial tab contains reference material to improve your communication skills. \nFAQ tab consists of answers to general questions related to app and its usage."
+        android:textSize="15dp"
+        android:textColor="#666565"
+        android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/sixthquestLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do I need the internet to use Speak Yourself?"
+        android:textSize="20dp"
+        android:textColor="#666565"
+        android:layout_below="@id/fifthQuestionAns"
+        android:id="@+id/sixthQuestion"
+        android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/sixthansLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sixthQuestion"
+        android:id="@+id/sixthQuestionAns"
+        android:text="	Yes"
+        android:textSize="15dp"
+        android:textColor="#666565"
+        android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/seventhquestLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How do I signup and login?"
+        android:textSize="20dp"
+        android:textColor="#666565"
+        android:layout_below="@id/sixthQuestionAns"
+        android:id="@+id/seventhQuestion"
+        android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/seventhansLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seventhQuestion"
+        android:id="@+id/seventhQuestionAns"
+        android:text="	When you open the Android app you’ll be directed to the login activity page. \n	Registered users can start using the app by logging in using their email address and password.\nNew users are supposed to click on sign up which will redirect them to the sign up activity page. Enter your full name, user name, email id, gender and new password to get create a new account and start using the app."
+        android:textSize="15dp"
+        android:textColor="#666565"
+        android:layout_marginTop="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
